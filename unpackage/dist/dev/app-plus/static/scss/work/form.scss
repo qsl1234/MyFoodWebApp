@@ -1,0 +1,52 @@
+/*
+  工作台默认表单样式 进一步压缩体积
+*/
+page {
+	background-color: #ffffff;
+}
+.container {
+	width: 100%;
+	background-color: #fff;
+	
+	.form {
+		padding: 15px;
+		background-color: #fff;
+
+		.segmented-control {
+			margin-bottom: 15px;
+		}
+
+		.button-group {
+			margin-top: 15px;
+			display: flex;
+			justify-content: space-around;
+		}
+
+		.form-item {
+			display: flex;
+			align-items: center;
+			flex: 1;
+		}
+
+		.xy-btn {
+			margin: 3px;
+		}
+	}
+	
+}
+
+  .btn-common{
+	  background: #00aaff;
+	  border: none;
+	  color: #ffffff;
+	  font-size: 32rpx;
+	   border-radius: 50rpx; // 同步椭圆弧度
+	  
+	  &::after {
+	    border: none;
+	  }
+	  
+	  &:active {
+	    opacity: 0.8;
+	  }
+  }

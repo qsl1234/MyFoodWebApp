@@ -1,0 +1,45 @@
+{
+    "version" : "1",
+    "prompt" : "template",
+    "title" : "服务协议和隐私政策",
+    "message" : "智能投料是由弈世（宁波）智能科技有限公司(以下简称“我们”)开发、管理、运营的智能投料平台。\r
+  我们将依据<a href=\"https://graceintelli.com/touliao/user.html\">《服务协议》</a>和<a href=\"https://graceintelli.com/touliao/privacy.html\">《隐私政策》</a>\r
+  来帮助您了解我们在收集、使用、存储和共享您个人信息的情况以及您享有的相关权利。\r
+  我们承诺会采取业界先进的安全措施保护您的信息安全，\r
+  在您使用本应用的过程中，我们会以弹窗或页面文案的形式向您明确说明并申请定位、相机、相册、麦克风、通知等系统权限，\r
+  这些权限并不会默认开启，我们仅在您使用到相应业务功能时，在您明确同意后开启。\r
+  请你务必审慎阅读、充分理解“服务协议”和“隐私政策”各条款，包括但不限于：为了更好的向你提供服务，我们需要收集你的设备标识、操作日志等信息用于分析、优化应用性能。<br/>　\r
+  　你可阅读<a href=\"https://graceintelli.com/touliao/user.html\">《服务协议》</a>和<a href=\"https://graceintelli.com/touliao/privacy.html\">《隐私政策》</a>了解详细信息。如果你同意，请点击下面按钮开始接受我们的服务。",
+    "buttonAccept" : "同意并接受",
+    "buttonRefuse" : "拒绝",
+    "hrefLoader" : "system",
+    "backToExit" : "false",
+    "second" : {
+        "title" : "确认提示",
+        "message" : "　　进入应用前，你需先同意<a href=\"https://graceintelli.com/touliao/user.html\">《服务协议》</a>和<a href=\"https://graceintelli.com/touliao/privacy.html\">《隐私政策》</a>，否则将退出应用。",
+        "buttonAccept" : "同意并继续",
+        "buttonRefuse" : "退出应用"
+    },
+    "disagreeMode" : {
+        "support" : false,
+        "loadNativePlugins" : false,
+        "visitorEntry" : false,
+        "showAlways" : false
+    },
+    "styles" : {
+        "backgroundColor" : "#ffffff",
+        "borderRadius" : "5px",
+        "title" : {
+            "color" : "#000000"
+        },
+        "buttonAccept" : {
+            "color" : "#000000"
+        },
+        "buttonRefuse" : {
+            "color" : "#aa0000"
+        },
+        "buttonVisitor" : {
+            "color" : "#000000"
+        }
+    }
+}

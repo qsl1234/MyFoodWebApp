@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lime-transition">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/uni_modules/lime-transition/lime-transition.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

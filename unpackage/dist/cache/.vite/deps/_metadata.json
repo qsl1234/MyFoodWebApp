@@ -1,0 +1,25 @@
+{
+  "hash": "df2a4f9a",
+  "configHash": "13286e00",
+  "lockfileHash": "6e639d43",
+  "browserHash": "76a01172",
+  "optimized": {
+    "dayjs": {
+      "src": "../../../../../node_modules/dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "35031009",
+      "needsInterop": true
+    },
+    "dayjs/plugin/isToday": {
+      "src": "../../../../../node_modules/dayjs/plugin/isToday.js",
+      "file": "dayjs_plugin_isToday.js",
+      "fileHash": "7ca9eea4",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-Y2F7D3TJ": {
+      "file": "chunk-Y2F7D3TJ.js"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+/*
+  工作台默认表单样式 进一步压缩体积
+*/
+ 
+
+  .btn-common{
+	  background: #00aaff;
+	  border: none;
+	  color: #ffffff;
+	  font-size: 32rpx;
+	   border-radius: 50rpx; // 同步椭圆弧度
+	  
+	  &::after {
+	    border: none;
+	  }
+	  
+	  &:active {
+	    opacity: 0.8;
+	  }
+  }
+  
+  .btn_group{
+  	display: flex;
+  	justify-content: center;	
+  	.cancel{
+  		width: 40%;
+  		border-radius: 35rpx;
+  		border: 1rpx solid #5f5f5f;
+  	}
+  	.confirm{
+		color: #ffffff;
+  		width: 40%;
+		background: #00aaff;
+  		border-radius: 35rpx;
+  		 
+  	}
+  }
+  .btn_group_1{
+  	display: flex;
+  	justify-content: center;
+  	 position: fixed;
+  	    bottom: 0;
+  	    left: 0;
+  	    right: 0;
+  	    display: flex;
+  	    justify-content: center;
+  	    padding: 10px;
+  	     
+  	    z-index: 100;
+  	.cancel{
+  		width: 40%;
+  		border-radius: 35rpx;
+  		border: 1rpx solid #555555;
+  	}
+  	.confirm{
+  		width: 40%;
+		color: #ffffff;
+		background: #00aaff;
+  		border-radius: 35rpx;
+  		 
+  	}
+  }
+  /* 适配安全区域（iPhoneX等机型） */
+  .btn_group_1 {
+      padding-bottom: constant(safe-area-inset-bottom);
+      padding-bottom: env(safe-area-inset-bottom);
+  }

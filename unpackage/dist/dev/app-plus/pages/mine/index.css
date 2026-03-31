@@ -1,0 +1,261 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+[data-v-82df574c]:host {
+  display: inline-flex;
+}
+.l-svg[data-v-82df574c] {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+.l-svg[data-v-82df574c] svg {
+  width: 100%;
+  height: 100%;
+}
+.l-svg-img[data-v-82df574c] {
+  mix-blend-mode: lighten;
+  width: 100%;
+  height: 100%;
+}
+.l-svg.is-inherit[data-v-82df574c] {
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  background-color: currentColor;
+}
+.l-svg[data-v-82df574c]:not(.is-inherit) {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: transparent;
+}
+.l-svg:not(.is-inherit) uni-image[data-v-82df574c] {
+  mix-blend-mode: inherit;
+  opacity: 0;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: l;
+  src: url("https://tdesign.gtimg.com/icon/0.3.0/fonts/t.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+[data-v-6fbe0909]:host {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.l-icon[data-v-6fbe0909] {
+
+  font-family: l;
+  display: inline-flex;
+  position: relative;
+}
+.l-icon--font[data-v-6fbe0909] {
+  font-family: l;
+  text-align: center;
+  font-size: var(--l-icon-size, 1em);
+  color: var(--l-icon-color, currentColor);
+
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.l-icon--image[data-v-6fbe0909] {
+  width: var(--l-icon-size, 1em);
+  height: var(--l-icon-size, 1em);
+
+  display: block;
+}
+.l-icon--image[data-v-6fbe0909] ::deep(img) {
+  z-index: -1;
+}
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page[data-v-569e925a] {
+  margin: 0 auto;
+  min-height: 100vh;
+  background: white;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.user-info[data-v-569e925a] {
+  margin-left: 15px;
+}
+.user-info .u_title[data-v-569e925a] {
+  font-size: 20px;
+  line-height: 30px;
+  color: #3498db;
+  font-weight: 800;
+}
+.user-info .u_subtitle[data-v-569e925a] {
+  font-size: 16px;
+  line-height: 22px;
+  color: #2c3e50;
+  font-weight: 400;
+}
+
+/* 主内容区 */
+.content[data-v-569e925a] {
+  padding: 10px;
+}
+
+/* 页面标题 */
+.page-header[data-v-569e925a] {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eaeef2;
+}
+.page-title[data-v-569e925a] {
+  font-size: 21px;
+  font-weight: 700;
+  color: #1a5276;
+  display: flex;
+  align-items: center;
+}
+.page-title i[data-v-569e925a] {
+  margin-right: 12px;
+  background: rgba(52, 152, 219, 0.15);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3498db;
+}
+.page-subtitle[data-v-569e925a] {
+  color: #7f8c8d;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+/* 卡片样式 */
+.card[data-v-569e925a] {
+  background: white;
+  border-radius: 16px;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+.card[data-v-569e925a]:hover {
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+.custom-list-item[data-v-569e925a] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* 核心布局：让左右内容分开 */
+  align-items: center;
+  height: 3.125rem;
+  border-bottom: 1px solid #eee;
+  padding: 0 0.625rem;
+  /* 可以添加点击态效果 */
+  transition: background-color 0.2s;
+}
+.custom-list-item[data-v-569e925a]:last-child {
+  border-bottom: none;
+}
+
+/* 可选：点击时的背景色变化 */
+custom-list-item[data-v-569e925a]:active {
+  background-color: #f0f0f0;
+}
+
+/* 去掉最后一个？注意：组件本身不知道自己是不是最后一个，这个通常在父组件的列表容器里处理 */
+/* 如果需要，父组件可以传入 isLast prop 来控制 */
+.left-content[data-v-569e925a] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon[data-v-569e925a] {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.625rem;
+}
+.name[data-v-569e925a] {
+  font-size: 15px;
+  color: #333;
+}
+.arrow[data-v-569e925a] {
+  font-size: 1.125rem;
+  color: #999;
+  /* margin-left: 10rpx; */
+}

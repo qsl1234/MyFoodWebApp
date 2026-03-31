@@ -1,0 +1,185 @@
+{
+	"pages": [{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/task/index",
+			"style": {
+				"navigationBarTitleText": "任务"
+				// "enablePullDownRefresh": true,
+				// "onReachBottomDistance": 50
+			}
+		}, {
+			"path": "pages/produce/index",
+			"style": {
+				"navigationBarTitleText": "开始生产"
+			}
+		}, {
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/common/webview/index",
+			"style": {
+				"navigationBarTitleText": "其他"
+			}
+		},
+		{
+			"path" : "pages/msg/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "消息中心"
+			}
+		},
+		{
+			"path" : "pages/mine/about/about",
+			"style" : 
+			{
+				"navigationBarTitleText" : "关于"
+			}
+		},
+		{
+			"path" : "pages/mine/userinfo/userinfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户信息"
+			}
+		},
+		{
+			"path" : "pages/mine/changepwd/changepwd",
+			"style" : 
+			{
+				"navigationBarTitleText" : "修改密码"
+			}
+		},
+		{
+			"path" : "pages/msg/notice/notice",
+			"style" : 
+			{
+				"navigationBarTitleText" : "通知"
+			}
+		},
+		{
+			"path" : "pages/task/taskdetails/taskdetails",
+			"style" : 
+			{
+				"navigationBarTitleText" : "任务详情"
+			}
+		},
+		{
+			"path" : "pages/task/taskwarn/taskwarn",
+			"style" : 
+			{
+				"navigationBarTitleText" : "配料超重"
+			}
+		},
+		{
+			"path" : "pages/task/errorreport/errorreport",
+			"style" : 
+			{
+				"navigationBarTitleText" : "中断上报"
+			}
+		},
+		{
+			"path" : "pages/common/popup/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "溫馨提示"
+			}
+		},
+		{
+			"path" : "pages/produce/recipe_line/recipe_line",
+			"style" : 
+			{
+				"navigationBarTitleText" : "投料任务",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/produce/scan_item/scan_item",
+			"style" : 
+			{
+				"navigationBarTitleText" : "扫码物料"
+			}
+		},
+		{
+			"path" : "pages/produce/start_produce/start_produce",
+			"style" : 
+			{
+				"navigationBarTitleText" : "生产投料"
+			}
+		},
+		{
+			"path" : "pages/task/batch_record/batch_record",
+			"style" : 
+			{
+				"navigationBarTitleText" : "批次详情"
+			}
+		},
+		{
+			"path" : "pages/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : "注册体验账户"
+			}
+		}
+	],
+	
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "智能投料",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#3498db",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"onReachBottomDistance": 150,
+		"mp-360": {
+			"navigationStyle": "custom"
+		},
+		"h5": {
+			"maxWidth": 1190,
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#F1F1F1"
+		}
+	},
+	"tabBar": {
+		"color": "#7f8c8d",
+		"selectedColor": "#3498db",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"iconPath": "static/tabs/home.png",
+			"selectedIconPath": "static/tabs/home_sel.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/task/index",
+			"iconPath": "/static/tabs/tasks.png",
+			"selectedIconPath": "static/tabs/tasks_sel.png",
+			"text": "任务"
+		}, {
+			"pagePath": "pages/msg/index",
+			"iconPath": "/static/tabs/msg_tab.png",
+			"selectedIconPath": "/static/tabs/msg_tab_sel.png",
+			"text": "消息"
+		}, {
+			"pagePath": "pages/mine/index",
+			"iconPath": "static/tabs/user.png",
+			"selectedIconPath": "static/tabs/user_sel.png",
+			"text": "我的"
+		}]
+	}
+}

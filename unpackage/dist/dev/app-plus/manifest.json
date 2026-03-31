@@ -1,0 +1,273 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__930D6B4",
+  "name": "SaaS经营管理系统",
+  "version": {
+    "name": "1.0.0",
+    "code": 1
+  },
+  "description": "SaaS经营管理系统",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "Barcode": {},
+    "Camera": {},
+    "Bluetooth": {},
+    "Geolocation": {},
+    "Webview-x5": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "id": "1",
+      "kernel": "WKWebview"
+    },
+    "usingComponents": true,
+    "nvueCompiler": "uni-app",
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "distribute": {
+      "orientation": [
+        "portrait-primary"
+      ],
+      "icons": {
+        "android": {
+          "hdpi": "unpackage/res/icons/72x72.png",
+          "xhdpi": "unpackage/res/icons/96x96.png",
+          "xxhdpi": "unpackage/res/icons/144x144.png",
+          "xxxhdpi": "unpackage/res/icons/192x192.png"
+        },
+        "ios": {
+          "appstore": "unpackage/res/icons/1024x1024.png",
+          "ipad": {
+            "app": "unpackage/res/icons/76x76.png",
+            "app@2x": "unpackage/res/icons/152x152.png",
+            "notification": "unpackage/res/icons/20x20.png",
+            "notification@2x": "unpackage/res/icons/40x40.png",
+            "proapp@2x": "unpackage/res/icons/167x167.png",
+            "settings": "unpackage/res/icons/29x29.png",
+            "settings@2x": "unpackage/res/icons/58x58.png",
+            "spotlight": "unpackage/res/icons/40x40.png",
+            "spotlight@2x": "unpackage/res/icons/80x80.png"
+          },
+          "iphone": {
+            "app@2x": "unpackage/res/icons/120x120.png",
+            "app@3x": "unpackage/res/icons/180x180.png",
+            "notification@2x": "unpackage/res/icons/40x40.png",
+            "notification@3x": "unpackage/res/icons/60x60.png",
+            "settings@2x": "unpackage/res/icons/58x58.png",
+            "settings@3x": "unpackage/res/icons/87x87.png",
+            "spotlight@2x": "unpackage/res/icons/80x80.png",
+            "spotlight@3x": "unpackage/res/icons/120x120.png"
+          }
+        }
+      },
+      "splashscreen": {
+        "useOriginalMsgbox": true,
+        "androidStyle": "common"
+      },
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_MOCK_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.GET_TASKS\"/>",
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_SMS\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+          "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+        ],
+        "minSdkVersion": 21,
+        "targetSdkVersion": 36
+      },
+      "apple": {
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "urlschemewhitelist": [
+          "baidumap",
+          "iosamap"
+        ],
+        "privacyDescription": {
+          "NSCameraUsageDescription": "需要调用摄像头用于扫码识别"
+        },
+        "dSYMs": false
+      },
+      "plugins": {
+        "speech": {
+          "ifly": {}
+        },
+        "geolocation": {
+          "system": {
+            "__platform__": [
+              "ios",
+              "android"
+            ]
+          }
+        },
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "uniStatistics": {
+      "version": "2",
+      "enable": true
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "light",
+      "background": "#3498db"
+    },
+    "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#ffffff",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "uni-app": {
+      "control": "uni-v3",
+      "vueVersion": "3",
+      "compilerVersion": "5.05",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      },
+      "nvueLaunchMode": "fast",
+      "webView": {
+        "minUserAgentVersion": "49.0"
+      }
+    },
+    "tabBar": {
+      "position": "bottom",
+      "color": "#7f8c8d",
+      "selectedColor": "#3498db",
+      "borderStyle": "rgba(255,255,255,0.4)",
+      "blurEffect": "none",
+      "fontSize": "10px",
+      "iconWidth": "24px",
+      "spacing": "3px",
+      "height": "50px",
+      "list": [
+        {
+          "pagePath": "pages/home/index",
+          "iconPath": "/static/tabs/home.png",
+          "selectedIconPath": "/static/tabs/home_sel.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/task/index",
+          "iconPath": "/static/tabs/tasks.png",
+          "selectedIconPath": "/static/tabs/tasks_sel.png",
+          "text": "任务"
+        },
+        {
+          "pagePath": "pages/msg/index",
+          "iconPath": "/static/tabs/msg_tab.png",
+          "selectedIconPath": "/static/tabs/msg_tab_sel.png",
+          "text": "消息"
+        },
+        {
+          "pagePath": "pages/mine/index",
+          "iconPath": "/static/tabs/user.png",
+          "selectedIconPath": "/static/tabs/user_sel.png",
+          "text": "我的"
+        }
+      ],
+      "backgroundColor": "#ffffff",
+      "selectedIndex": 0,
+      "shown": true
+    }
+  },
+  "app-harmony": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "distribute": {
+      "bundleName": "com.graceintelli.zntl",
+      "icons": {
+        "foreground": "unpackage/res/assets/ffff.png",
+        "background": "unpackage/res/assets/bbb.png"
+      },
+      "splashScreens": {
+        "startWindowBackground": "#FFFFFF",
+        "startWindowIcon": "unpackage/res/assets/ffff.png"
+      },
+      "signingConfigs": {
+        "default": {
+          "certpath": "c:\\Users\\proflli\\AppData\\Roaming\\HBuilder X\\extensions\\launcher\\agc-certs\\1750577019427.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B00E1493BB2E3221D3CB9F5B11361FDE93F22588263F48340C4F7319BB23956576799EFD27C7B6B",
+          "profile": "c:\\Users\\proflli\\AppData\\Roaming\\HBuilder X\\extensions\\launcher\\agc-certs\\1757059020881.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "c:\\Users\\proflli\\AppData\\Roaming\\HBuilder X\\extensions\\launcher\\agc-certs\\1750577019427.p12",
+          "storePassword": "0000001B00E1493BB2E3221D3CB9F5B11361FDE93F22588263F48340C4F7319BB23956576799EFD27C7B6B"
+        }
+      }
+    },
+    "uniStatistics": {
+      "version": "2",
+      "enable": true
+    },
+    "safearea": {
+      "background": "#ffffff",
+      "bottom": {
+        "offset": "auto"
+      }
+    }
+  },
+  "screenOrientation": [
+    "portrait-primary",
+    "portrait-secondary"
+  ],
+  "launch_path": "__uniappview.html"
+}

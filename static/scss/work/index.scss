@@ -1,0 +1,117 @@
+/*
+  工作台默认列表样式 进一步压缩体积
+*/
+page {
+	background-color: #E7EDF7;
+}
+.container {
+	width: 100%;
+	background-color: #E7EDF7;
+	
+	.queryForm {
+		padding-top: 36rpx;
+		 padding: 15px 0 0 0;
+		 
+		
+		:deep(.uni-forms-item) {
+			margin-bottom: 5px;
+			display: flex;
+			justify-content: center;
+		}
+	}
+
+	.xy-btn {
+		margin: 3px;
+	}
+}
+.btn_group{
+	display: flex;
+	justify-content: center;	
+	.cancel{
+		width: 40%;
+		border-radius: 35rpx;
+		border: 1rpx solid #eee;
+	}
+	.confirm{
+		width: 40%;
+		border-radius: 35rpx;
+		border: 1rpx solid #eee;
+	}
+}
+.btn_group_1{
+	display: flex;
+	justify-content: center;
+	 position: fixed;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    display: flex;
+	    justify-content: center;
+	    padding: 10px;
+	     
+	    z-index: 100;
+	.cancel{
+		width: 40%;
+		border-radius: 35rpx;
+		border: 1rpx solid #eee;
+	}
+	.confirm{
+		width: 40%;
+		border-radius: 35rpx;
+		border: 1rpx solid #eee;
+	}
+}
+/* 适配安全区域（iPhoneX等机型） */
+.btn_group_1 {
+    padding-bottom: constant(safe-area-inset-bottom);
+    padding-bottom: env(safe-area-inset-bottom);
+}
+
+.top_card{
+	display: flex;
+	justify-content: space-between;
+}
+
+	.divider{
+		height: 1rpx;
+		background-color: #e4e4e4;
+		margin: 10rpx 10rpx;
+	}	
+	
+	.bt_c{
+		background:#00aaff;
+		color: white;
+		margin: 5rpx;
+	}
+	
+	
+	
+	
+.icon-zanwushuju2 {
+  font-size: 40rpx; 
+}	
+.icon-zanwushuju3 {
+  font-size: 140rpx; 
+}	
+
+
+.zanwushuju{
+		display: flex;
+		justify-content: center;
+		height: 53vh;
+		margin-top: 30rpx;
+		
+	.text_zw{
+		    margin-top: 20rpx;
+	}	
+}
+
+.truncate-text {
+  font-size: calc(30rpx - 0.1vw);
+  font-weight: bold;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block; /* 确保宽度生效 */
+}
